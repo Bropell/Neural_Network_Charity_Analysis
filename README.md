@@ -60,3 +60,23 @@ original DataFrame before those columns were dropped is shown below.<br>
 </p><br>
 
 ### Compiling, Training and Evaluating the Model
+
+<h4 align="center">Original Model</h4>
+<p align="center">
+    <img src= "https://github.com/Bropell/Neural_Network_Charity_Analysis/blob/main/Resources/Original%20Model.png"/>
+</p><br>
+
+- How many neurons, layers, and activation functions did you select for your neural network model, and why?<br>
+
+As seen in the image above, there are two hidden layers and one outer layer in the original model. The first hidden
+layer has 80 units, the second hidden layer has 30 units and the outer layer has one. Both hidden layers use the 
+"Relu" activation function while the outer layer uses the "sigmoid" activation function. The Relu function was used
+here because it is easier to train and often achieves better performance than other functions.<br>
+
+- Were you able to achieve the target model performance?<br>
+
+Unfortunately, during the optimization phase of this challenge a target model performance of greater than 75% was 
+not able to be reached. Three attempts at optimization were made with the highest target model performance being
+73.2%.<br>
+
+- What steps did you take to try and increase model performance?<br>
