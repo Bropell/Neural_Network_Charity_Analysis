@@ -42,7 +42,21 @@ catagorical features are being passed into the model.<br>
     <img src= "https://github.com/Bropell/Neural_Network_Charity_Analysis/blob/main/Resources/Features.png"/>
 </p><br>
 
-<h4 align="center">Application Dataframe</h4>
+<h4 align="center">Merged Application Dataframe</h4>
 <p align="center">
     <img src= "https://github.com/Bropell/Neural_Network_Charity_Analysis/blob/main/Resources/application_df.png"/>
 </p><br>
+
+- What variable(s) are neither targets nor features, and should be removed from the input data?<br>
+
+As mentioned earlier in the preprocessing section, there were some columns that needed to be dropped in order
+for the model to function properly. Both the "EIN" and "NAME" columns in particular needed to be dropped because
+they only contain identifiers for applications which will not benefit the machine learning model. An image of the
+original DataFrame before those columns were dropped is shown below.<br>
+
+<h4 align="center">Original Application Dataframe</h4>
+<p align="center">
+    <img src= "https://github.com/Bropell/Neural_Network_Charity_Analysis/blob/main/Resources/application_df_original.png"/>
+</p><br>
+
+### Compiling, Training and Evaluating the Model
