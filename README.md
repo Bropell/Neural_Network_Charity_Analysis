@@ -32,3 +32,17 @@ interest and the model will aim to gain an understanding of this based on the ot
 
 - What variable(s) are considered to be the features for your model?<br>
 
+A feature is an individual measurable property or characteristic of a phenomenon. In this case, the 
+features are all the parameters remaining after unnecessary columns were dropped aside from the target
+variable. An image of the features is shown below keeping in mind that the "IS_SUCCESSFUL" column is 
+the target. Additionally, an image of the final merged DataFrame is also shown to demonstrate how the
+catagorical features are being passed into the model.<br>
+
+<p align="center">
+    <img src= "https://github.com/Bropell/Neural_Network_Charity_Analysis/blob/main/Resources/Features.png"/>
+</p><br>
+
+<h4 align="center">Application Dataframe</h4>
+<p align="center">
+    <img src= "https://github.com/Bropell/Neural_Network_Charity_Analysis/blob/main/Resources/application_df.png"/>
+</p><br>
