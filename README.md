@@ -80,3 +80,36 @@ not able to be reached. Three attempts at optimization were made with the highes
 73.2%.<br>
 
 - What steps did you take to try and increase model performance?<br>
+
+<h4 align="center">Optimization 1 (Add Third Hidden Layer)</h4>
+<p align="center">
+    <img src= "https://github.com/Bropell/Neural_Network_Charity_Analysis/blob/main/Resources/Optimization1_three_hidden_layers.png"/>
+</p><br>
+
+The first attempt at optimizing the model to achieve a target performance greater than 75% was to add a third hidden 
+layer. Hidden layers are required if the data must be separated non-linearly and in this case, the features must be
+separated in this way. This modification was only slightly better than the original model with a target performance 
+of 73.2% versus the original 73.0%.<br> 
+
+<h4 align="center">Optimization 2 (Change Activation Functions)</h4>
+<p align="center">
+    <img src= "https://github.com/Bropell/Neural_Network_Charity_Analysis/blob/main/Resources/Optimization2_change_activation_functions.png"/>
+</p><br>
+
+The second attempt at optimizing the model was to change the activation functions for the hidden layers from "Relu" to
+"sigmoid". The idea here was that sigmoid functions work better when there are fewer layers and tend to bias very large 
+values to a value of 1 and very small values to 0. In this regard, the outcome was expected to change if any of these 
+extreme values existed which was not the case. This modification produced a poorer performance than the original model with 
+a target value of 73.1%.<br>
+
+<h4 align="center">Optimization 3 (Added Perceptrons in Three Hidden Layers)</h4>
+<p align="center">
+    <img src= "https://github.com/Bropell/Neural_Network_Charity_Analysis/blob/main/Resources/Optimization3_add_perceptrons.png"/>
+</p><br>
+
+The last attempt at optimization was to return to using three hidden layers but to double the amount of perceptrons in 
+each hidden layer. The idea here is that there are more units to shoulder the load and learning should be faster at the
+beginning. Even though the target performance started the highest in this model, as more epochs passed there was little 
+to be gained in terms of target performance. This modification produced the worst target performance with a value of 72.9%.
+
+## Summary
