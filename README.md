@@ -113,3 +113,10 @@ beginning. Even though the target performance started the highest in this model,
 to be gained in terms of target performance. This modification produced the worst target performance with a value of 72.9%.
 
 ## Summary
+Overall, any of these deep learning models are decently effective in their target performance despite the fact the model 
+could not be optimized to the desired 75% accuracy. Usually, models with greater than 50% target performance are considered 
+usable and all four of these models are around a 73% target performance. One recommendation for another potential optimization
+attempt would be to drop one or more columns that are hypothesized to have little effect on the result. The idea is that by
+dropping columns it helps the model learn better and faster making it more efficient. There is room to play with different 
+combinations of the columns being passed into the model to try and get the target performance over 75% but this could prove 
+to be very time consuming.  
