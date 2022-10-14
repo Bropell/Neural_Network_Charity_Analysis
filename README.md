@@ -99,8 +99,8 @@ of 73.2% versus the original 73.0%.<br>
 The second attempt at optimizing the model was to change the activation functions for the hidden layers from "Relu" to
 "sigmoid". The idea here was that sigmoid functions work better when there are fewer layers and tend to bias very large 
 values to a value of 1 and very small values to 0. In this regard, the outcome was expected to change if any of these 
-extreme values existed which was not the case. This modification produced a poorer performance than the original model with 
-a target value of 73.1%.<br>
+extreme values existed which was not the case. This modification produced a poorer performance than the first attempt but 
+was better than the original model with a target value of 73.1%.<br>
 
 <h4 align="center">Optimization 3 (Added Perceptrons in Three Hidden Layers)</h4>
 <p align="center">
